@@ -1,0 +1,74 @@
+/**pages/index/index.wxss**/
+.container {
+  padding: 40rpx;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  margin-bottom: 40rpx;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);
+}
+
+.label {
+  display: block;
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 16rpx;
+}
+
+.message {
+  font-size: 32rpx;
+  color: #07c160;
+  font-weight: 500;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+}
+
+.user-info text {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+  margin-top: 40rpx;
+}
+
+.button-group button {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 60rpx;
+}
+
+.footer text {
+  font-size: 24rpx;
+  color: #999;
+}

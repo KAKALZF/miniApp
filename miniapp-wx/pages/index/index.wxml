@@ -1,0 +1,31 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="title">MiniApp 小程序</text>
+  </view>
+  
+  <view class="content">
+    <view class="card">
+      <text class="label">来自后端的消息：</text>
+      <text class="message">{{message}}</text>
+    </view>
+    
+    <view class="card">
+      <text class="label">用户信息：</text>
+      <view class="user-info" wx:if="{{userInfo}}">
+        <text>ID: {{userInfo.id}}</text>
+        <text>姓名: {{userInfo.name}}</text>
+        <text>邮箱: {{userInfo.email}}</text>
+      </view>
+    </view>
+    
+    <view class="button-group">
+      <button type="primary" bindtap="fetchHello">获取问候</button>
+      <button type="default" bindtap="fetchUserInfo">获取用户信息</button>
+    </view>
+  </view>
+  
+  <view class="footer">
+    <text>连接地址: {{apiUrl}}</text>
+  </view>
+</view>
